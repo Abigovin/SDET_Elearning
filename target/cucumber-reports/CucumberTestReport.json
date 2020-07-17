@@ -1,0 +1,782 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Student registration",
+        "description": "",
+        "id": "this-feature-is-to-automate-the-elearning-signup-page;student-registration",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10383835601,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "navigate to the url \"http://elearningm1.upskills.in/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://elearningm1.upskills.in/",
+                  "offset": 21
+                }
+              ],
+              "location": "Signup_stepDefintions.navigate_to_the_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2859237000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on SignUp link",
+            "match": {
+              "location": "Signup_stepDefintions.i_click_on_SignUp_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 214898900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter valid credential in First name textbox",
+            "match": {
+              "location": "Signup_stepDefintions.enter_valid_credential_in_First_name_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 159466501,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter valid credential in Last name textbox",
+            "match": {
+              "location": "Signup_stepDefintions.enter_valid_credential_in_Last_name_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 237197600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter valid credential in e-mail textbox",
+            "match": {
+              "location": "Signup_stepDefintions.enter_valid_credential_in_e_mail_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 151187401,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter valid credential in username textbox",
+            "match": {
+              "location": "Signup_stepDefintions.enter_valid_credential_in_username_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 167944699,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Enter valid credential in pass textbox",
+            "match": {
+              "location": "Signup_stepDefintions.enter_valid_credential_in_pass_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138068601,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Enter valid credential in confirm password textbox",
+            "match": {
+              "location": "Signup_stepDefintions.enter_valid_credential_in_confirm_password_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 148171401,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Enter valid credential in phone textbox",
+            "match": {
+              "location": "Signup_stepDefintions.enter_valid_credential_in_phone_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103015000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Selected Valid credentials from Language list box",
+            "match": {
+              "location": "Signup_stepDefintions.selected_Valid_credentials_from_Language_list_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80382100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click Student radio button in Profile",
+            "match": {
+              "location": "Signup_stepDefintions.click_Student_radio_button_in_Profile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1874067599,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Click on Register button",
+            "match": {
+              "location": "Signup_stepDefintions.click_on_Register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41896899,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Validate the successful registration message",
+            "match": {
+              "location": "Signup_stepDefintions.validate_the_successful_registration_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 856703500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "close the browser",
+            "match": {
+              "location": "Signup_stepDefintions.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@ELSC_001"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Teacher registration",
+        "description": "",
+        "id": "this-feature-is-to-automate-the-elearning-signup-page;teacher-registration",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10882003299,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "navigate to the url \"http://elearningm1.upskills.in/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://elearningm1.upskills.in/",
+                  "offset": 21
+                }
+              ],
+              "location": "Signup_stepDefintions.navigate_to_the_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4795149801,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click on SignUp link",
+            "match": {
+              "location": "Signup_stepDefintions.i_click_on_SignUp_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 201161000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Enter valid credential in First name textbox",
+            "match": {
+              "location": "Signup_stepDefintions.enter_valid_credential_in_First_name_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 171900000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Enter valid credential in Last name textbox",
+            "match": {
+              "location": "Signup_stepDefintions.enter_valid_credential_in_Last_name_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 219339499,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Enter valid credential in e-mail textbox",
+            "match": {
+              "location": "Signup_stepDefintions.enter_valid_credential_in_e_mail_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135852200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Enter valid credential in username textbox",
+            "match": {
+              "location": "Signup_stepDefintions.enter_valid_credential_in_username_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 186339901,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Enter valid credential in pass textbox",
+            "match": {
+              "location": "Signup_stepDefintions.enter_valid_credential_in_pass_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144892000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Enter valid credential in confirm password textbox",
+            "match": {
+              "location": "Signup_stepDefintions.enter_valid_credential_in_confirm_password_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152279699,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Enter valid credential in phone textbox",
+            "match": {
+              "location": "Signup_stepDefintions.enter_valid_credential_in_phone_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86708501,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Selected Valid credentials from Language list box",
+            "match": {
+              "location": "Signup_stepDefintions.selected_Valid_credentials_from_Language_list_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98511801,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Click Teacher radio button in Profile",
+            "match": {
+              "location": "Signup_stepDefintions.click_Teacher_radio_button_in_Profile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2407879701,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Click on Register button",
+            "match": {
+              "location": "Signup_stepDefintions.click_on_Register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42632300,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Validate the successful registration message",
+            "match": {
+              "location": "Signup_stepDefintions.validate_the_successful_registration_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 786332501,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "close the browser",
+            "match": {
+              "location": "Signup_stepDefintions.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 22,
+            "name": "@ELSC_002"
+          }
+        ]
+      }
+    ],
+    "name": "This feature is to automate the Elearning signup page",
+    "description": "I want to verify whether application allows user to get registered as Student",
+    "id": "this-feature-is-to-automate-the-elearning-signup-page",
+    "keyword": "Feature",
+    "uri": "signup.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@ElearningSignUp"
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Student registration",
+        "description": "",
+        "id": "this-feature-is-to-automate-the-elearning-signup-page-using-excel;student-registration",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12457921099,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "navigate to the url",
+            "match": {
+              "location": "Signup_stepDefintions.navigate_to_the_given_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4470027000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on SignUp link",
+            "match": {
+              "location": "Signup_stepDefintions.i_click_on_SignUp_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 538161301,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter First name",
+            "match": {
+              "location": "Signup_stepDefintions.Enter_First_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 179091200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter Last name",
+            "match": {
+              "location": "Signup_stepDefintions.Enter_Last_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 330589100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter e-mail",
+            "match": {
+              "location": "Signup_stepDefintions.Enter_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 310126600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Enter username",
+            "match": {
+              "location": "Signup_stepDefintions.Enter_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 263383900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Enter password",
+            "match": {
+              "location": "Signup_stepDefintions.Enter_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 220159100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Enter confirm password",
+            "match": {
+              "location": "Signup_stepDefintions.Enter_confirm_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 298687301,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Enter phone number",
+            "match": {
+              "location": "Signup_stepDefintions.Enter_phone_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 131155699,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Select Language list box",
+            "match": {
+              "location": "Signup_stepDefintions.Select_Language_list_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82463700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Click Student radio button in Profile",
+            "match": {
+              "location": "Signup_stepDefintions.click_Student_radio_button_in_Profile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1819686901,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Click on Register button",
+            "match": {
+              "location": "Signup_stepDefintions.click_on_Register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54259700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Validate the successful registration message",
+            "match": {
+              "location": "Signup_stepDefintions.validate_the_successful_registration_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 791044000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "close the browser",
+            "match": {
+              "location": "Signup_stepDefintions.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Excel_ELSC_001"
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Teacher registration",
+        "description": "",
+        "id": "this-feature-is-to-automate-the-elearning-signup-page-using-excel;teacher-registration",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11290820400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "navigate to the url",
+            "match": {
+              "location": "Signup_stepDefintions.navigate_to_the_given_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4803100300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on SignUp link",
+            "match": {
+              "location": "Signup_stepDefintions.i_click_on_SignUp_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 368028699,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Enter First name",
+            "match": {
+              "location": "Signup_stepDefintions.Enter_First_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 188324700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Enter Last name",
+            "match": {
+              "location": "Signup_stepDefintions.Enter_Last_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 282150801,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Enter e-mail",
+            "match": {
+              "location": "Signup_stepDefintions.Enter_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 287284599,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Enter username",
+            "match": {
+              "location": "Signup_stepDefintions.Enter_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 273450401,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Enter password",
+            "match": {
+              "location": "Signup_stepDefintions.Enter_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 234305501,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Enter confirm password",
+            "match": {
+              "location": "Signup_stepDefintions.Enter_confirm_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 281494700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Enter phone number",
+            "match": {
+              "location": "Signup_stepDefintions.Enter_phone_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117916699,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Select Language list box",
+            "match": {
+              "location": "Signup_stepDefintions.Select_Language_list_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103873000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Click Teacher radio button in Profile",
+            "match": {
+              "location": "Signup_stepDefintions.click_Teacher_radio_button_in_Profile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1992212000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Click on Register button",
+            "match": {
+              "location": "Signup_stepDefintions.click_on_Register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44941599,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Validate the successful registration message",
+            "match": {
+              "location": "Signup_stepDefintions.validate_the_successful_registration_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 827674400,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "close the browser",
+            "match": {
+              "location": "Signup_stepDefintions.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@Excel_ELSC_002"
+          }
+        ]
+      }
+    ],
+    "name": "This feature is to automate the Elearning signup page using Excel",
+    "description": "I want to verify whether application allows user to get registered as Student",
+    "id": "this-feature-is-to-automate-the-elearning-signup-page-using-excel",
+    "keyword": "Feature",
+    "uri": "signup_Excel.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@ElearningSignUp"
+      }
+    ]
+  }
+]
