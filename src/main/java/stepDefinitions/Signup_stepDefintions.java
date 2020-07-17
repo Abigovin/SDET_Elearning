@@ -39,10 +39,10 @@ public class Signup_stepDefintions extends Wrapper{
 	   
 	}
 	
-	@When("^Enter valid credential in First name textbox$")
-	public void enter_valid_credential_in_First_name_textbox() throws Throwable {
+	@When("^Enter valid credential in First name textbox \"([^\"]*)\"$")
+	public void enter_valid_credential_in_First_name_textbox(String Firstname) throws Throwable {
 		
-		driver.findElement(By.name("firstname")).sendKeys("manzoor"+randomNum);
+		driver.findElement(By.name("firstname")).sendKeys(Firstname+randomNum);
 	}
 	@When("^Enter First name$")
 	public void Enter_First_name() throws Throwable
@@ -57,17 +57,17 @@ public class Signup_stepDefintions extends Wrapper{
 	   driver.findElement(By.name("lastname")).sendKeys(Wrapper.getDataFromExcel(1, 2));
 	}
 	
-	@When("^Enter valid credential in Last name textbox$")
-	public void enter_valid_credential_in_Last_name_textbox() throws Throwable {
+	@When("^Enter valid credential in Last name textbox \"([^\"]*)\"$")
+	public void enter_valid_credential_in_Last_name_textbox(String Lastname) throws Throwable {
 	   
-	   driver.findElement(By.name("lastname")).sendKeys("mehadi"+randomNum);
+	   driver.findElement(By.name("lastname")).sendKeys(Lastname+randomNum);
 	}
 	
 	
-	@When("^Enter valid credential in e-mail textbox$")
-	public void enter_valid_credential_in_e_mail_textbox() throws Throwable {
+	@When("^Enter valid credential in e-mail textbox \"([^\"]*)\"$")
+	public void enter_valid_credential_in_e_mail_textbox(String email) throws Throwable {
 	 
-	  driver.findElement(By.id("registration_email")).sendKeys("manzoor"+randomNum+"@gmail.com");
+	  driver.findElement(By.id("registration_email")).sendKeys(email+randomNum+"@gmail.com");
 	}
 	
 	@When("^Enter e-mail$")
@@ -76,9 +76,9 @@ public class Signup_stepDefintions extends Wrapper{
 	  driver.findElement(By.id("registration_email")).sendKeys(Wrapper.getDataFromExcel(1, 3)+Wrapper.getDataFromExcel(1,8)+"@gmail.com");
 	}
 	
-	@When("^Enter valid credential in username textbox$")
-	public void enter_valid_credential_in_username_textbox() throws Throwable {
-	   driver.findElement(By.id("username")).sendKeys("manzoor"+randomNum);
+	@When("^Enter valid credential in username textbox \"([^\"]*)\"$")
+	public void enter_valid_credential_in_username_textbox(String Username) throws Throwable {
+	   driver.findElement(By.id("username")).sendKeys(Username+randomNum);
 	   
 	}
 	
@@ -88,9 +88,9 @@ public class Signup_stepDefintions extends Wrapper{
 		 driver.findElement(By.id("username")).sendKeys(Wrapper.getDataFromExcel(1, 4)+Wrapper.getDataFromExcel(1, 8));
 	}
 
-	@When("^Enter valid credential in pass textbox$")
-	public void enter_valid_credential_in_pass_textbox() throws Throwable {
-	   driver.findElement(By.id("pass1")).sendKeys("manzoor"+randomNum);
+	@When("^Enter valid credential in pass textbox \"([^\"]*)\"$")
+	public void enter_valid_credential_in_pass_textbox(String pass) throws Throwable {
+	   driver.findElement(By.id("pass1")).sendKeys(pass+randomNum);
 	}
 	
 	@When("^Enter password$")
@@ -100,9 +100,9 @@ public class Signup_stepDefintions extends Wrapper{
 		
 	}
 
-	@When("^Enter valid credential in confirm password textbox$")
-	public void enter_valid_credential_in_confirm_password_textbox() throws Throwable {
-		 driver.findElement(By.id("pass2")).sendKeys("manzoor"+randomNum); 
+	@When("^Enter valid credential in confirm password textbox \"([^\"]*)\"$")
+	public void enter_valid_credential_in_confirm_password_textbox(String confirmpass) throws Throwable {
+		 driver.findElement(By.id("pass2")).sendKeys(confirmpass+randomNum); 
 	}
 	
 	@When("^Enter confirm password$")
@@ -129,10 +129,10 @@ public class Signup_stepDefintions extends Wrapper{
 		
 	}
 
-	@When("^Selected Valid credentials from Language list box$")
-	public void selected_Valid_credentials_from_Language_list_box() throws Throwable {
+	@When("^Selected Valid credentials from Language list box \"([^\"]*)\"$")
+	public void selected_Valid_credentials_from_Language_list_box(String Language) throws Throwable {
 	    Select dropdown = new Select(driver.findElement(By.id("registration_language")));
-	    dropdown.selectByVisibleText("English");
+	    dropdown.selectByVisibleText(Language);
 
 	}
 	
